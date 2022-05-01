@@ -45,6 +45,8 @@
       - "/opt/scripts:/scripts"
       - "/mnt:/mnt"
       - "/mnt/unionfs/Media/TV:/tv"
+      - "/mnt/unionfs/Media/Anime:/anime"
+
 
 - name: Create and start container
   docker_container:
