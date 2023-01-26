@@ -29,7 +29,7 @@
 - name: Create and start container
   docker_container:
     name: portainer
-    image: "portainer/portainer-ce"
+    image: "portainer/portainer-ee"
     pull: yes
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
